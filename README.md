@@ -86,3 +86,33 @@ with open(f'cellmarkfiletable.txt', 'a') as f:
   /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt binarizedData
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -b 200  /content/binarizedData/ /content/modelData/ 10 hg19
 ```
+
+Бонус:
+```python
+states = [
+    '0_NONE',
+    '1_Active_Promoter',
+    '2_Weak_Enhancer',
+    '3_Weak_Enhancer',
+    '4_Strong_Enhancer',
+    '5_Transcribed',
+    '6_Transcribed',
+    '7_Transcribed',
+    '8_Heterochromatin',
+    '9_Repressed',
+    '10_Heterochromatin'
+]
+lines = []
+with open('modelData/Dnd41_10_dense.bed', 'r') as f:
+    lines = f.readlines()
+for i in range(1, len(lines)):
+    tokens = lines[i].split(sep='\t')
+    state = int(tokens[3])
+    assert(state > 0)
+    tokens[3] = states[state]
+    lines[i] = '\t'.join(tokens)
+
+with open('Dnd41_10_dense.bed', 'w') as f:
+    for line in lines:
+        f.write(line)
+```
