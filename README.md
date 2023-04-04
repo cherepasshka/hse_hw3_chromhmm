@@ -34,16 +34,16 @@
 ### Табличка с номерами эпигенетических типов, их характерные эпигенетические метки и другие свойства, а также присвоенные им названия
 | Номер состояния  | Название | Метки и расположение | Картинка |
 | ------------- | ------------- | ------------- | ------------- |
-| 1 | Active promoter | <ul><li>для состояния характерны метки H2az, H3k09ac, H3k04me3, H3k04me2, H3k04me1, H3k79me2</li><li>попадает на интрон или экзон</li></ul>|  - |
-| 2 | Weak enhancer | <ul><li>для состояния характерны метки H2az, H3k09ac, H3k04me2, H3k04me1 </li><li>чаще всего находятся на RefSeqTES, RefSeqGene, а также на ядерной ламине</li></ul> | - |
-| 3 | Weak enhancer | <ul><li>для состояния характерны метки H3k09ac, H3k04me3, H3k04me2, H3k04me1, H3k79me2, H4k20me1, H3k36me3</li><li>проявляется в RefSeqTES, laminB1lads, реже - в RefSeqExon, RefSeqGene, RefSeqTSS2kb</li></ul> | -|
-| 4 | Strong enhancer | <ul><li>для состояния характерны метки H3k79me2, H4k20me1, H3k36me3</li><li>чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на ядерной ламине</li></ul> |-|
-| 5 | Transcribed | <ul><li>для состояния характерны метки H3k79me2, H4k20me1, H3k36me3</li><li>проявляется чаще всего в RefSeqGene</li></ul> |-|
-| 6 | Transcribed | <ul><li>для состояния характерна метка H3k36me3</li><li>проявляется преимущественно в RefSeqExon, RefSeqGene, RefSeqTES</li></ul> | -|
-| 7 | Transcribed | <ul><li>для состояния характерна метка H3k36me3</li><li>проявляется преимущественно в RefSeqExon, RefSeqGene, RefSeqTES</li></ul> | -|
-| 8 | Heterochromatin | <ul><li>для состояния характерны метки H3k36me3 и H3k09me3</li><li>чаще всего находятся на ядерной ламине, попадают на участок репрессированного гетерохроматима</li></ul> | -|
-| 9 | Repressed | <ul><li>для состояния ни одна из меток нехарактерна</li><li>чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима</li></ul> | -|
-| 10 | Heterochromatin | <ul><li>для состояния характерна метка H3k27me3</li><li>чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима</li></ul> |-|
+| 1 | Active promoter | <ul><li>для состояния характерны метки H2az, H3k09ac, H3k04me3, H3k04me2, H3k04me1, H3k79me2</li><li>попадает на интрон или экзон</li></ul>|  ![image](https://user-images.githubusercontent.com/50082204/229930803-49ddd079-f2f3-4f11-be45-06aa67ec4221.png) |
+| 2 | Weak enhancer | <ul><li>для состояния характерны метки H2az, H3k09ac, H3k04me2, H3k04me1 </li><li>чаще всего находятся на RefSeqTES, RefSeqGene, а также на ядерной ламине</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229930902-412d065c-837e-477c-999f-a7d183fb4ac5.png) |
+| 3 | Weak enhancer | <ul><li>для состояния характерны метки H3k09ac, H3k04me3, H3k04me2, H3k04me1, H3k79me2, H4k20me1, H3k36me3</li><li>проявляется в RefSeqTES, laminB1lads, реже - в RefSeqExon, RefSeqGene, RefSeqTSS2kb</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229931004-eb0eeca4-38e4-4104-b4fb-b2e8ceaf00fe.png)|
+| 4 | Strong enhancer | <ul><li>для состояния характерны метки H3k79me2, H4k20me1, H3k36me3</li><li>чаще всего находятся на RefSeqTES и RefSeqTSS2Kb, а также на ядерной ламине</li></ul> |![image](https://user-images.githubusercontent.com/50082204/229931148-eb00bc68-9d68-4e61-b936-a97c1ec7614a.png)|
+| 5 | Transcribed | <ul><li>для состояния характерны метки H3k79me2, H4k20me1, H3k36me3</li><li>проявляется чаще всего в RefSeqGene</li></ul> |![image](https://user-images.githubusercontent.com/50082204/229931314-4c47c379-aaa2-4799-88e6-f123f41acd90.png)|
+| 6 | Transcribed | <ul><li>для состояния характерна метка H3k36me3</li><li>проявляется преимущественно в RefSeqExon, RefSeqGene, RefSeqTES</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229931648-ff2cb29c-c228-4f82-b1ae-a6a16d5e8ff6.png)|
+| 7 | Transcribed | <ul><li>для состояния характерна метка H3k36me3</li><li>проявляется преимущественно в RefSeqExon, RefSeqGene, RefSeqTES</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229931729-bc68377a-25ad-45dc-bb11-726768f70f90.png)|
+| 8 | Heterochromatin | <ul><li>для состояния характерны метки H3k36me3 и H3k09me3</li><li>чаще всего находятся на ядерной ламине, попадают на участок репрессированного гетерохроматима</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229931885-cdeb5f88-ef67-46d8-969e-52d561674e25.png)|
+| 9 | Repressed | <ul><li>для состояния ни одна из меток нехарактерна</li><li>чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима</li></ul> | ![image](https://user-images.githubusercontent.com/50082204/229931948-0913167f-270c-4774-bf24-780037c92001.png)|
+| 10 | Heterochromatin | <ul><li>для состояния характерна метка H3k27me3</li><li>чаще всего находятся на ядерной ламине, то есть попадает на участок репрессированного гетерохроматима</li></ul> |![image](https://user-images.githubusercontent.com/50082204/229932021-f2afff04-fb99-469f-aaaf-b85434a60b8f.png)|
 
 
 ### Список всех запущенных команд:
