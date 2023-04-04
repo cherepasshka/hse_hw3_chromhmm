@@ -116,3 +116,4 @@ with open('Dnd41_10_dense.bed', 'w') as f:
     for line in lines:
         f.write(line)
 ```
+полученный bed файл: https://drive.google.com/file/d/1SdJ6se6QlLPfQVwBHLFywrXkCbUHPF5Y/view?usp=share_link
