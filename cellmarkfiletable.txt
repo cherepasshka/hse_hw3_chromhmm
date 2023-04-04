@@ -1,5 +1,4 @@
 Dnd41	H3k27me3	H3k27me3.bam	Control.bam
-Dnd41	wgEncodeBroadHistoneDnd41ControlStdAlnRep1	wgEncodeBroadHistoneDnd41ControlStdAlnRep1.bam	Control.bam
 Dnd41	H2az	H2az.bam	Control.bam
 Dnd41	H3k04me3	H3k04me3.bam	Control.bam
 Dnd41	H3k09ac	H3k09ac.bam	Control.bam
